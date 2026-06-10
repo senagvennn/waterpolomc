@@ -1,0 +1,2 @@
+video_id,drive_file_id,file_name,file_size_bytes,duration_s,fps,width,height,codec,match_date,team_a,team_b,period_cam,q1_score,q2_score,q3_score,q4_score,q5_score,composite_score,quality_tier,stabilized,normalized,stable_path,phase2_ready,last_modified_date
+20260608_Galatasaray_Enka_P1_CamA,LOCAL_FALLBACK,20260608_Galatasaray_Enka_P1_CamA.mp4,533735828,211.24,25.0,1920,1080,h264,20260608,Galatasaray,Enka,P1_CamA,0.85,1.0,1.0,1.0,1.0,0.955,Tier A,FALSE,FALSE,NONE,FALSE,2026-06-08T16:59:58.287941

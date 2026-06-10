@@ -1,0 +1,42 @@
+paths:
+  raw_data_dir: "data/raw"
+  processed_dir: "data/processed"
+  sampled_frames_dir: "data/sampled_frames"
+  manifests_dir: "data/manifests"
+  outputs_dir: "data/outputs"
+  logs_dir: "logs"
+
+google_drive:
+  credentials_file: "config/credentials.json"
+  token_file: "config/token.json"
+  scopes:
+    - "https://www.googleapis.com/auth/drive.readonly"
+
+frame_sampling:
+  sample_rate_percent: 10
+  max_frames_per_video: 200
+
+quality_thresholds:
+  blur_laplacian_min: 100.0
+  blur_fail_fraction: 0.60
+
+  shake_flow_mag_max: 80.0
+  shake_fail_fraction: 0.50
+
+  pool_hsv_hue_low: 85
+  pool_hsv_hue_high: 130
+  pool_hsv_sat_low: 40
+  pool_hsv_val_low: 60
+  pool_coverage_min: 0.40
+  pool_fail_fraction: 0.40
+
+  glare_saturation_max: 30
+  glare_value_min: 220
+  glare_density_max: 0.15
+  glare_fail_fraction: 0.35
+
+  splash_hue_max: 30
+  splash_sat_max: 40
+  splash_value_min: 240
+  splash_density_max: 0.10
+  splash_fail_fraction: 0.30

@@ -1,0 +1,18 @@
+# Sanal ortam ve Python önbellekleri
+__pycache__/
+*.pyc
+.env
+.venv
+.pyenv/
+
+# Büyük Veri ve Video Dosyaları
+waterpolo_pipeline/data/raw/
+waterpolo_pipeline/data/processed/
+waterpolo_pipeline/data/sampled_frames/
+*.mp4
+
+# Hassas Kimlik Bilgileri ve Loglar
+waterpolo_pipeline/config/credentials.json
+waterpolo_pipeline/config/token.json
+waterpolo_pipeline/logs/
+*.log

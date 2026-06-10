@@ -1,0 +1,12 @@
+{
+    "video_id": "20260608_Galatasaray_Enka_P1_CamA",
+    "total_frames_scanned": 5281,
+    "valid_segments": [
+        {
+            "sample_start_index": 0,
+            "sample_end_index": 5280,
+            "status": "VALID_PLAY_ZONE"
+        }
+    ],
+    "generated_at": "2026-06-08T17:00:06.417948"
+}
